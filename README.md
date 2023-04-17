@@ -11,7 +11,9 @@ library("devtools")
 devtools::install_github(”https://github.com/joemontoya505/simplecelanalysis")
 
 ```
-# Then run file to generate html report
+
+Then run file to generate html report
+
 
 ## Background
 
