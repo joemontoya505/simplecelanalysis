@@ -5,7 +5,10 @@ install.packages("BiocManager")
 BiocManager::install("devtools")
 BiocManager::install("affy")
 BiocManager::install("limma")
-BiocManager::install("ath1121501.db") #This is the annotation used for the data we are using. It will be different for other data. Run annotate script to ensure it is correct.
+## The following is the annotation used for the data 
+## we are using. It will be different for other data.
+## Run annotate script to ensure it is correct.
+BiocManager::install("ath1121501.db")
 
 library("devtools")
 devtools::install_github(”https://github.com/joemontoya505/simplecelanalysis")
