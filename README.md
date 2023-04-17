@@ -3,7 +3,6 @@ Run the following as a script if not already installed:
 
 ```
 install.packages("BiocManager")
-BiocManager::install("devtools")
 BiocManager::install("affy")
 BiocManager::install("limma")
 ## The following is the annotation used for the data 
