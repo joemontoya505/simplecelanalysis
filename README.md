@@ -1,9 +1,8 @@
 ## Intro
 
-To use, install repo in r or RStudio using:
+Before starting, run code:
 
-devtools::install_github("joemontoya505/simplecelanalysis")
-
-and load .cel files using:
-
-eset<-ReadAffy(celfile.path="*filepath*")
+install.packages("BiocManager")
+BiocManager::install("affy")
+BiocManager::install("limma")
+BiocManager::install("ath1121501.db") # This is the annotation used for the data we are using. It will be different for other data. Run annotate script to ensure it is correct.
