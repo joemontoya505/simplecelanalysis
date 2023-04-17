@@ -1,6 +1,6 @@
 ## Before starting, run this as a script:
 ```
-{
+
 install.packages("BiocManager")
 BiocManager::install("devtools")
 BiocManager::install("affy")
@@ -9,7 +9,7 @@ BiocManager::install("ath1121501.db") #This is the annotation used for the data 
 
 library("devtools")
 devtools::install_github(”https://github.com/joemontoya505/simplecelanalysis")
-}
+
 ```
 
 ## Intro
