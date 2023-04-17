@@ -1,6 +1,6 @@
 ## Intro
 
-To use, install repo in ror RStudio using:
+To use, install repo in r or RStudio using:
 
 devtools::install_github("joemontoya505/simplecelanalysis")
 
